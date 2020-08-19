@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-ghattackmod-dev-152822-authRole",
+            "UnauthRoleArn": "arn:aws:iam::983124455616:role/amplify-ghattackmod-dev-152822-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::983124455616:role/amplify-ghattackmod-dev-152822-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-ghattackmod-dev-152822-deployment",
+            "UnauthRoleName": "amplify-ghattackmod-dev-152822-unauthRole",
+            "StackName": "amplify-ghattackmod-dev-152822",
+            "StackId": "arn:aws:cloudformation:us-east-2:983124455616:stack/amplify-ghattackmod-dev-152822/875e2710-e25a-11ea-8c7a-06c54738e514",
+            "AmplifyAppId": "d10aac2v5duz1c"
+        },
+        "categories": {
+            "auth": {
+                "ghattackmod99dd2201": {}
+            }
+        }
+    }
+}
