@@ -1,14 +1,25 @@
 import React from 'react';
 import './App.css';
-import {withAuthenticator} from '@aws-amplify/ui-react'
+import { withAuthenticator} from '@aws-amplify/ui-react';
 
+class Main extends React.Component {
+    constructor (props){
+        super(props)
+        this.state ={
+            signedIn:false,
+            color:'Blue'
+        }
+    }
 
-function Main() {
-  return (
-    <div>
-      <h1>This is the Authenticated Component</h1>
-    </div>
-  )
+render() {
+    return (
+        <div>
+            <h1>{`Am I signed in?: ${this.state.signedIn}`}</h1>
+            <p>{this.state.color}</p>
+        </div>
+    )
+}
+
 }
 
 export default withAuthenticator(Main);
