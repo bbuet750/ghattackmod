@@ -1,16 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Amplify from 'aws-amplify';
-import config from './aws-exports';
+import AuthState from './AuthState'
 import './index.css';
-import App from './App';
+
 import * as serviceWorker from './serviceWorker';
 
-Amplify.configure(config)
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AuthState/>
   </React.StrictMode>,
   document.getElementById('root')
 );
